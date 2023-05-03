@@ -1,0 +1,9 @@
+.home-container {
+    background-color: #0C1137;
+    color: #ffffff;
+}
+
+.banner-wrapper {
+    width: 100%;
+    display: flex;
+}
