@@ -1,7 +1,9 @@
-.home-container {
-    background-color: #0C1137;
+* {
+    background-image: linear-gradient(to top, #000000, #0C1137);
     color: #ffffff;
 }
+
+
 
 .banner-wrapper {
     width: 100%;

@@ -6,5 +6,21 @@
 }
 
 .company-name {
+    border: none;
+    text-decoration: none;
     font-weight: 300;
+    background-color: transparent;
 }
+
+span {
+    border-radius: none;
+    background-image: linear-gradient(to right, #00DBFF, #0061FF);
+    background-clip: text;
+    color: transparent;
+  }
+  
+
+/* #0C1137
+#00DBFF
+#0061FF
+*/

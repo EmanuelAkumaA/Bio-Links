@@ -5,12 +5,10 @@ import './styles.css';
 import logoinsta from '../../images/instagram.jpg'
 
 
-
-
 export default function Home(props) {
     return(
         <div className='home-container'>
-            <Header />
+          <Header />
             <div className='banner-wrapper'>
                 <Banner 
                   name='Tech Legion'
