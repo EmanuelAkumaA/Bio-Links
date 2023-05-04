@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../components/header';
 import Banner from '../../components/banner';
 import './styles.css';
-import logoinsta from '../../images/instagram.jpg'
+import linkedin from '../../images/linkedin.jpeg'
 
 
 export default function Home(props) {
@@ -13,27 +13,32 @@ export default function Home(props) {
                 <Banner 
                   name='Tech Legion'
                   link='#'
-                  image={logoinsta}
+                  image={linkedin}
                 />
                 <Banner 
                   name='Instagram'
                   link='#'
-                  image={logoinsta}
+                  image={linkedin}
                 />
                 <Banner
                   name='LinkedIn'
                   link='#'
-                  image={logoinsta}
+                  image={linkedin}
                 />
                 <Banner 
                   name='Facebook'
                   link='#'
-                  image={logoinsta}
+                  image={linkedin}
                 />
                 <Banner
                   name='Twitter'
                   link='#'
-                  image={logoinsta}
+                  image={linkedin}
+                />
+                <Banner
+                  name='Twitter'
+                  link='#'
+                  image={linkedin}
                 />
             </div>
         </div>

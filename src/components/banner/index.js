@@ -2,25 +2,20 @@ import React from "react";
 import './styles.css'
 
 
-export default function Banner(props) {
+export default function Banner({link, image, name}) {
 
-    const onClick = () => {
-        window.open(props.link);
-    };
-
-    const usuarioTemInternet = true;
-
-    const mosrtarImagem = props.image && usuarioTemInternet;
+    // const onClick = () => {
+    //     window.open();
+    // };
 
     return (
         <div 
           className='banner-container'
-          onClick={onClick}
+          // onClick={onClick}
         >
-          { mosrtarImagem ?
-            <img src={props.image} alt='banner-image' className='banner-image' /> :
-            <span>{props.name}</span>
-          }
+          <img src={image} alt='banner-image' className='banner-image' 
+          /> 
+          
         </div>
     );
 };
