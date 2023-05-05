@@ -5,8 +5,12 @@
     flex-direction: column;
 }
 
+.header-container img{
+    display: none;
+}
+
 article {
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 .company-name {
@@ -23,8 +27,9 @@ p {
     background-image: linear-gradient(to right, #00DBFF, #0061FF);
     background-clip: text;
     color: transparent;
-  }
+}
   
+
 
 /* #0C1137
 #00DBFF

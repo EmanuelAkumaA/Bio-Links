@@ -26,6 +26,8 @@
         width: 100%;
         /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     }
+    
+
 }
 
 @media (max-width: 900px) {
@@ -39,4 +41,27 @@
     .home-container{
         padding: 1rem 0 0 0;
     }
+
+    .header-container img{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        margin: 40px ;
+    }
+
+    .header-container article {
+        line-height: 3rem;
+    }
+
+    .company-name{
+        font-size: 45px;
+        align-items: center;
+    }
+
+    p{
+        font-size: 20px;
+        align-items: center;
+    }
 }
+

@@ -3,6 +3,8 @@ import Header from '../../components/header';
 import Banner from '../../components/banner';
 import './styles.css';
 import linkedin from '../../images/linkedin.jpeg'
+import techlegion from '../../images/techlegion.jpeg'
+import instagram from '../../images/insta.jpeg'
 
 
 export default function Home(props) {
@@ -13,12 +15,12 @@ export default function Home(props) {
                 <Banner 
                   name='Tech Legion'
                   link='#'
-                  image={linkedin}
+                  image={techlegion}
                 />
                 <Banner 
                   name='Instagram'
                   link='#'
-                  image={linkedin}
+                  image={instagram}
                 />
                 <Banner
                   name='LinkedIn'

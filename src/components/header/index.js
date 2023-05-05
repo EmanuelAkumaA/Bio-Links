@@ -3,15 +3,12 @@ import logo from '../../images/logo_blue.png';
 import './styles.css'
 
 export default function Header() {
-    const estaNoMobile = false;
     return (
         <div className='header-container'>
-          {estaNoMobile && 
-          (<img
+          <img
             src={logo}
             alt='logo'
-          />)
-          }
+          />
 
           <article>
             <h1 className='company-name'>TECH <strong>LEGION</strong></h1>
