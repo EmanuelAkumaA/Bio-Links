@@ -5,7 +5,7 @@ import './styles.css';
 import linkedin from '../../images/linkedin.jpeg'
 import techlegion from '../../images/techlegion.jpeg'
 import instagram from '../../images/insta.jpeg'
-
+import twitter from '../../images/Twitter.jpeg'
 
 export default function Home(props) {
     return(
@@ -13,19 +13,9 @@ export default function Home(props) {
           <Header />
             <div className='banner-wrapper'>
                 <Banner 
-                  name='Tech Legion'
-                  link='#'
-                  image={techlegion}
-                />
-                <Banner 
                   name='Instagram'
                   link='#'
                   image={instagram}
-                />
-                <Banner
-                  name='LinkedIn'
-                  link='#'
-                  image={linkedin}
                 />
                 <Banner 
                   name='Facebook'
@@ -33,14 +23,24 @@ export default function Home(props) {
                   image={linkedin}
                 />
                 <Banner
-                  name='Twitter'
+                  name='LinkedIn'
                   link='#'
                   image={linkedin}
                 />
                 <Banner
                   name='Twitter'
+                  link='https://twitter.com/techlegionbr'
+                  image={twitter}
+                />
+                <Banner
+                  name='TikTok'
                   link='#'
                   image={linkedin}
+                />
+                <Banner 
+                  name='Tech Legion'
+                  link='https://techlegion.com.br'
+                  image={techlegion}
                 />
             </div>
         </div>
