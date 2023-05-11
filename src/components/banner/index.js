@@ -2,7 +2,7 @@ import React from "react";
 import './styles.css'
 
 
-export default function Banner({link, image, name, id}) {
+export default function Banner({link, image, id}) {
 
     const onClick = () => {
         window.open(link, '_self');
