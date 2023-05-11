@@ -2,10 +2,13 @@ import React from 'react';
 import Header from '../../components/header';
 import Banner from '../../components/banner';
 import './styles.css';
-import linkedin from '../../images/linkedin.jpeg'
-import techlegion from '../../images/techlegion.jpeg'
-import instagram from '../../images/insta.jpeg'
-import twitter from '../../images/Twitter.jpeg'
+import site from '../../images/site.png'
+import facebook from '../../images/facebook.png'
+import linkedin from '../../images/linkedin.png'
+import email from '../../images/email.png'
+import instagram from '../../images/instagram.png'
+import twitter from '../../images/twitter.png'
+
 
 export default function Home(props) {
     return(
@@ -13,14 +16,14 @@ export default function Home(props) {
           <Header />
             <div className='banner-wrapper'>
                 <Banner 
-                  name='Instagram'
+                  name='Site Tech Legion'
                   link='#'
-                  image={instagram}
+                  image={site}
                 />
                 <Banner 
                   name='Facebook'
                   link='#'
-                  image={linkedin}
+                  image={facebook}
                 />
                 <Banner
                   name='LinkedIn'
@@ -28,19 +31,19 @@ export default function Home(props) {
                   image={linkedin}
                 />
                 <Banner
-                  name='Twitter'
-                  link='https://twitter.com/techlegionbr'
-                  image={twitter}
+                  name='E-mail'
+                  link='#'
+                  image={email}
                 />
                 <Banner
-                  name='TikTok'
+                  name='Instagram'
                   link='#'
-                  image={linkedin}
+                  image={instagram}
                 />
                 <Banner 
-                  name='Tech Legion'
-                  link='https://techlegion.com.br'
-                  image={techlegion}
+                  name='Twitter'
+                  link='#'
+                  image={twitter}
                 />
             </div>
         </div>

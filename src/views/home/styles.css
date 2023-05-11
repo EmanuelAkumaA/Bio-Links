@@ -35,8 +35,16 @@
         grid-template-columns: 1fr 1fr;
         gap: 0;
         margin: 20px 0 0 0;
-
+        
     }
+
+    /* .banner-wrapper banner:nth-child(2n - 1) {
+        order: 2;
+    }
+         
+    .banner-wrapper banner:nth-child(2n) {
+       order: 1;
+    } */
 
     .home-container{
         padding: 1rem 0 0 0;
