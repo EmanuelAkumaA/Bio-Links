@@ -22,27 +22,49 @@ export default function Home(props) {
                 />
                 <Banner 
                   name='Facebook'
-                  link='#'
+                  link='https://www.facebook.com/techlegionbr'
                   image={facebook}
                 />
                 <Banner
+                  id= 'banner-linkedin-desktop'
                   name='LinkedIn'
-                  link='#'
+                  link='https://www.linkedin.com/company/techlegionbr/'
                   image={linkedin}
                 />
                 <Banner
+                  id= 'banner-email-desktop'
                   name='E-mail'
-                  link='#'
+                  link='mailto:contato@techlegion.com.br'
                   image={email}
                 />
+
+                
+                {/* MODIFOCAÇÃO PARA A ORDEM NO MOBILE */}
+                <Banner
+                  id= 'banner-email-mobile'
+                  name='E-mail'
+                  link='mailto:contato@techlegion.com.br'
+                  image={email}
+                />
+
+                <Banner
+                  id= 'banner-linkedin-mobile'
+                  name='LinkedIn'
+                  link='https://www.linkedin.com/company/techlegionbr/'
+                  image={linkedin}
+                />
+                  {/* ################## */}
+                
+
+
                 <Banner
                   name='Instagram'
-                  link='#'
+                  link='https://www.instagram.com/techlegionbr/'
                   image={instagram}
                 />
                 <Banner 
                   name='Twitter'
-                  link='#'
+                  link='https://twitter.com/techlegionbr'
                   image={twitter}
                 />
             </div>
